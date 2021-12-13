@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@400;700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue1_color:#041E15;
+    --orange:#EC5E38;
+    --marron:#9E7F2C;
+    --blue2_color:#18045F;
+    --blue3_color:#45045F;
+    --bg_neutre1:#CEDBFD;
+    --bg_neutre2:#08C2FD;
+}
+
+nav{
+    height: 50px;
+    background-color: var(--blue2_color);
+    display: flex;
+    padding: 0px 20px;  
+}
+h1{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mark{
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+.mark_1{
+    color:var(--orange);
+}
+.mark_2{
+    color: var(--bg_neutre2);
+}
+.section_right_nav{
+    flex: 4;
+}
+.section_right_nav{
+    padding: 9px;
+    display: flex;
+}
+.container_input{
+    flex: 3;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+.option_nav{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+}
+.link_option_nav{
+    text-decoration: none;
+}
+.link_option_nav_rest{
+    text-decoration: none;
+    color: white;
+}
+.specific_color{
+    color: var(--marron);
+}
+.arrows_dows{
+    border-top: 4px solid white;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.arrows_link{
+    height: 1px;
+}
+.link_option_nav_rest{
+    text-decoration: none;
+}
+.buy_card,.choose_language,.login_user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.size_icon{
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.container_icon_search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    padding-left: 4px;
+}
+
+.input_icon_search{
+    width: calc( 100% - 30px);
+   border: none;
+   background-color: transparent;
+   outline: none;
+   font-size: 19px;
+}
+.option_nav{
+    display: flex;
+    padding: 0px 0px 0 90px;
+}
+.btn_primary_nav{
+    border: 1px dotted var(--marron);
+    padding: 0 30px;
+    border-radius: 5px;
+    color: var(--marron);
+    background-color: transparent;
+}
+/* ---secondary nav --- */
+.container_body{
+    max-width: 1192px;
+    margin: 0 auto;
+}
+.nav-secondary{
+    background-color: var(--marron);
+}
+.container_list_secondary{
+    display: flex;
+    justify-content: space-between;
+}
+.liste_menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+.liste_menu li a{
+    text-decoration: none;
+    color: white;
+}
+/* ---section banniere ---- */
+.section-banniere{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),var(--blue2_color);
+    height: 400px;
+}
+.container_baniere_RL{
+    display: flex;
+    position: relative;
+
+}
+.icon_banniere{
+    height: 130px; 
+    margin-right: 15px;
+}
+.banniere_content_left{
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+.banniere_content_left a{
+    text-decoration: none;
+}
+.text_banniere-left{
+    width: 416px;
+    word-spacing: 2px;
+    font-size: 22px;
+    line-height: 1.7em;
+}
+.banniere_content_right{
+    width: 100%;
+    text-align: right;
+}
+/* --- section category --- */
+.category{
+    width: 80%;
+    border: 1px solid red;
+    box-shadow: 3px 3px 3px rgba(46, 46, 46, 0.938);
+    margin: 0 auto;
+    position: relative;
+    top: -35px;
+    background-color: white;
+    z-index: 10000;
+    border-radius: 4px;
+}
+.category_content{
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+
+}
+.case1{
+   flex-basis: 18.83%;
+}
+.case1 select{  
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Roboto';
+    width: 100%;
+}
+.btn_categeory{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background-color: var(--blue2_color);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.section_category{
+    margin-bottom: 9px;
+}
+.icon_brand_car{
+    height: 50px;
+}
+.title3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.img-brand{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.section3{
+    background-color:#EDEDED;
+}

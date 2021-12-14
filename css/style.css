@@ -114,7 +114,7 @@ h1{
 }
 /* ---secondary nav --- */
 .container_body{
-    max-width: 1192px;
+    max-width: 80%;
     margin: 0 auto;
 }
 .nav-secondary{
@@ -219,4 +219,22 @@ h1{
 }
 .section3{
     background-color:#EDEDED;
+    margin-bottom: 60px;
+}
+/* ---section4--- */
+.header_article{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--bg_neutre1);
+    margin-bottom: 40px;
+}
+.header_article span:first-child{
+    color: var(--blue1_color);
+    font-weight: bold;
+}
+.sticker_all{
+    background-color: var(--orange);
+    padding: 3px 5px;
+    color: white;
 }
